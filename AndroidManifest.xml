@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mao.recorder"
+    android:versionCode="1"
+    android:versionName="1.0.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppBaseTheme" >
+        <activity
+            android:name="com.mao.recorder.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity 
+            android:name="com.mao.personality.LoginActivity"
+            android:screenOrientation="portrait">
+            
+        </activity>
+        <activity 
+            android:name="com.mao.personality.RegisterActivity"
+            android:screenOrientation="portrait">
+            
+        </activity>
+        <activity 
+            android:name="com.mao.recorder.RecordActivity"
+            android:screenOrientation="portrait">
+            
+        </activity>
+        <activity 
+            android:name="com.mao.recorder.DetailActivity"
+            android:screenOrientation="portrait">
+            
+        </activity>
+        <activity 
+            android:name="com.mao.memorandum.AddMemorandumActivity"
+            android:screenOrientation="portrait">
+            
+        </activity>
+        <activity 
+            android:name="com.mao.memorandum.MemorandumDetailActivity"
+            android:screenOrientation="portrait">
+            
+        </activity>
+        <receiver
+            android:name="com.mao.util.NetworkStateReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <activity 
+            android:name="com.mao.dynamic.DynamicDetailActivity"
+            android:screenOrientation="portrait">
+            
+        </activity>
+        <activity 
+            android:name="com.mao.personality.MyFouseActivity"
+            android:screenOrientation="portrait">
+            
+        </activity>
+        <activity 
+            android:name="com.mao.personality.FousemeActivity"
+            android:screenOrientation="portrait">
+            
+        </activity>
+        <activity 
+            android:name="com.mao.slidingmenu.AboutActivity"
+            android:screenOrientation="portrait">
+            
+        </activity>
+        <activity 
+            android:name="com.mao.slidingmenu.HelpActivity"
+            android:screenOrientation="portrait">
+            
+        </activity>
+        <activity 
+            android:name="com.mao.slidingmenu.SettingActivity"
+            android:screenOrientation="portrait">
+            
+        </activity>
+        <activity 
+            android:name="com.mao.slidingmenu.ShareActivity"
+            android:screenOrientation="portrait">
+            
+        </activity>
+        <activity 
+            android:name="com.mao.slidingmenu.UpdateActivity"
+            android:screenOrientation="portrait">
+            
+        </activity>
+        <activity 
+            android:name="com.mao.personality.MessageActivity"
+            android:screenOrientation="portrait">
+            
+        </activity>
+    </application>
+
+</manifest>

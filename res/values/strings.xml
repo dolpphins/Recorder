@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">随身记</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- 选项卡 -->
+    <string name="today">今日记</string>
+    <string name="memorandum">备忘录</string>
+    <string name="write">写一写</string>
+    <string name="dynamic">发现</string>
+    <string name="personality">个人中心</string>
+    
+    <!-- 登录提示 -->
+    <string name="login_tip">更多功能请登录</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="pleaselogin">请登录</string>
+    <string name="username">用户名</string>
+    <string name="password">密 码</string>
+    <string name="againinput">再输一遍</string>
+    <string name="forgetpassword">忘记密码?</string>
+    <!-- 个人中心 -->
+    <string name="myfocus">我关注的人</string>
+    <string name="focusme">关注我的人</string>
+    <string name="message">消息中心</string>
+    <string name="takephoto">拍照</string>
+    <string name="localpicture">本地图片</string>
+    <!-- 其它 -->
+    <string name="cancel">取消</string>
+    <string name="save">保存</string>
+    <string name="detail">正文</string>
+    <string name="delete_record_item">删除</string>
+    <string name="no_record_tip">还没有任何记录</string>
+    <string name="finish">完成</string>
+    <!-- 侧滑菜单 -->
+    <string name="settings">设置</string>
+    <string name="update">版本更新</string>
+    <string name="share">软件分享</string>
+    <string name="help">使用帮助</string>
+    <string name="about">关于我们</string>
+    
+    <!-- 周一到周日 -->
+    <string name="Monday">一</string>
+    <string name="Tuesday">二</string>
+    <string name="Wednesday">三</string>
+    <string name="Thursday">四</string>
+    <string name="Friday">五</string>
+    <string name="Saturday">六</string>
+    <string name="Sunday">日</string>
+    <!-- 备忘录提示 -->
+    <string name="memorandum_tip">当天还没有备忘点击马上添加</string>
+    <string name="add_memorandum">添加备忘</string>
+    <string name="memorandum_detail">备忘详情</string>
+    <string name="add">添加</string>
+    <!-- 权限 -->
+    <string name="permission_tip">请设置权限</string>
+    <string name="personally">仅自己可见</string>
+    <string name="friendlly">好友可见</string>
+    <string name="common">所有人可见</string>
+    <!-- 备忘选择时间 -->
+    <string name="yes">确定</string>
+    <string name="no">取消</string>
+    <!-- 动态 -->
+    <string name="no_dynamic_tip">没有动态信息点击刷新</string>
+    <string name="fouse">关注</string>
+    <string name="alreadyfouse">已关注</string>
+</resources>

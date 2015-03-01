@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	<RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:paddingTop="12dip"
+     android:paddingBottom="12dip"
+     android:background="#148af7">
+     <ImageView 
+         android:id="@+id/slidingmenu_update_back"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:background="@drawable/navigationbar_back"
+         android:layout_centerVertical="true"
+         android:layout_marginLeft="10dip"/>
+     <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/update"
+            android:textColor="#ffffff"
+            android:layout_centerInParent="true"
+            android:textSize="18sp" />
+	</RelativeLayout>
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent">
+	    <LinearLayout 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerInParent="true"
+	        android:orientation="vertical">
+	        <ImageView
+	            android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:background="@drawable/app_icon"/>
+	        <TextView 
+	            android:id="@+id/update_version_tv"
+	            android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:textSize="20sp"
+	        	android:layout_gravity="center_horizontal"/>
+	    </LinearLayout>
+	</RelativeLayout>
+</LinearLayout>
